@@ -9,11 +9,10 @@
         android:background="@color/colorPrimaryDark"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Main Area"
-            android:textColor="#ffffffff" />
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></WebView>
     </LinearLayout>
 
     <LinearLayout
@@ -25,19 +24,18 @@
         android:orientation="vertical"
         android:visibility="gone">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="#Area 1"
-            android:textColor="#ff000000" />
+            android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="#Area 2"
-            android:textColor="#ff000000" />
-
+            <Button
+                android:id="@+id/sideButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/side_button_text" />
+        </LinearLayout>
     </LinearLayout>
 </FrameLayout>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Example02</string>
+    <string name="menu_item_title">메뉴 아이템 타이틀</string>
+    <string name="menu_button_on_text">+</string>
+    <string name="menu_button_off_text">-</string>
+    <string name="menu_text_view_text">Kakao Friends</string>
+    <string name="side_button_text">Kakao Friends</string>
 </resources>

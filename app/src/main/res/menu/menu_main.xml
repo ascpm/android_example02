@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
-        android:id="@+id/sideLayoutShowButton"
-        android:title="사이드 레이아웃 펼치기"
-        app:showAsAction="always" />
+        android:id="@+id/menuMain"
+        android:orderInCategory="1"
+        android:title="@string/menu_item_title"
+        app:actionLayout="@layout/menu_layout"
+        app:showAsAction="always|withText" />
 </menu>
